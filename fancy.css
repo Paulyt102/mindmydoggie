@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+
+
+
+
+html, body{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+
+
+body{
+	font-family:poppins;
+}
+
+header .carousel-inner .item{
+	height:100vh;
+	
+}
+
+.navbar-inverse{
+
+	background-color:transparent;
+	border-color: transparent;
+	
+}
+.brand-image{
+	height: 50px;
+}
+
+.navbar-brand span{
+	color:orange;
+	
+}
+.navbar-inverse .navbar-brand{
+	color:#fff;
+	font-size:40px;
+	padding:40px 15px;
+	font-weight: 900;
+	
+	
+}
+.nav.navbar-nav.navbar-right{
+	margin:25px 0px;
+	
+}
+.navbar-inverse .navbar-nav > li > a{
+	color:#fff;
+	text-transform:uppercase;
+	background-color:transparent;
+	border-color: transparent;
+}
+
+
+.banner{
+	
+	-webkit-background-size: cover;
+	background-size:cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height:100vh;
+	
+}
+.carousel-caption{
+	padding-bottom: 250px;
+	font-family:poppins;
+}
+
+ .carousel-caption h2{
+	font-size: 70px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.carousel-caption h2 span{
+	color:#edbb00;
+	padding: 15px 35px;
+	display:incline-block;
+	margin-top: 15px;
+	text-transform:uppercase;
+	border-radius:25px;
+}
+	
+	.carousel-caption h3 {
+		font-size:25px;
+		
+		
+	}
+	
+		
+/*	.carousel-caption h3 span {
+color:#edbb00;
+		
+		
+	}*/
+.carousel-caption a{
+background: #edbb00;
+padding:15px 35px;
+display:inline-block;
+margin-top:15px;
+color:#fff;
+text-transform:uppercase;
+border-radius: 25px;
+}
+
+.carousel-control.right{
+background-image:none;
+}
+
+.carousel-control.left{
+background-image:none;
+}
+
+.carousel-indicators .active{
+	background-color: #edbb00;
+	border-color: #edbb00;
+	
+	
+}
+	@media only screen and (max-width: 767px){
+		.navbar-inverse .navbar-brand{
+			font-size:30px;
+			padding: 20px 15px;
+		}
+		.navbar-collapse{
+			background: rgba(0,0,0,0.5);
+		}
+		
+		.carousel-caption{
+			padding-bottom:120px;
+		}
+		.carousel-caption h2{
+			font-size:25px;
+			
+		}
+			.carousel-caption h3{
+			font-size:18px;
+			
+		}
+		
+			.carousel-caption a{
+			padding:10px 25px;
+			
+		}
+
+	
